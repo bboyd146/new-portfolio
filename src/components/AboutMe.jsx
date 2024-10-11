@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../assets/me.jpg";
+
 const AboutMe = () => {
 	return (
 		<div className="bg-gray-800 p-6 shadow-glow rounded-lg glow-card  transition-transform transform hover:scale-105">
