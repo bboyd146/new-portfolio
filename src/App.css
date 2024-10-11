@@ -1,41 +1,41 @@
 .glow-skill-card {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
-  box-shadow: 0 0 25px 10px rgba(0, 173, 255, 0.6); /* Stronger initial glow */
-  border-radius: 0.75rem; /* Rounded edges */
-  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+position: relative;
+background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+box-shadow: 0 0 25px 10px rgba(0, 173, 255, 0.6); /* Stronger initial glow */
+border-radius: 0.75rem; /* Rounded edges */
+transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 }
 
 .glow-skill-card:hover {
-  box-shadow: 0 0 50px 20px rgba(0, 173, 255, 0.9); /* More intense glow on hover */
-  border-color: rgba(0, 173, 255, 1); /* Brighten the border color on hover */
-  transform: scale(1.05); /* Slight scale effect on hover */
+box-shadow: 0 0 50px 20px rgba(0, 173, 255, 0.9); /* More intense glow on hover */
+border-color: rgba(0, 173, 255, 1); /* Brighten the border color on hover */
+transform: scale(1.05); /* Slight scale effect on hover */
 }
 
 /* styles.css or your global CSS file */
 
 .star {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 20%;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
-  animation: twinkling 1.5s infinite alternate;
+position: absolute;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 20%;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+animation: twinkling 1.5s infinite alternate;
 }
 
 @keyframes twinkling {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1.2);
-    opacity: 0.5;
-  }
+0% {
+transform: scale(1);
+opacity: 1;
+}
+100% {
+transform: scale(1.2);
+opacity: 0.5;
+}
 }
 
 .stars-container {
-  position: relative; /* Ensure this is relative */
-  overflow: hidden;
-  min-height: 100vh; /* Ensures full height for stars */
-  z-index: 0; /* Lower z-index for background */
+position: relative; /* Ensure this is relative */
+overflow: hidden;
+min-height: 100vh; /* Ensures full height for stars */
+z-index: 0; /* Lower z-index for background */
 }
