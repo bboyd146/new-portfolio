@@ -6,6 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",
+		"add-domain": "echo \"bradley-b.com\" > dist/CNAME",
 		"deploy": "gh-pages -d dist",
 		"dev": "vite",
 		"build": "vite build",
