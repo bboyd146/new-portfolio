@@ -2,7 +2,7 @@
 	"name": "new-portfolio",
 	"private": true,
 	"version": "0.0.0",
-	"homepage": ".",
+"homepage": "https://bboyd146.github.io/new-portfolio",
 	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",
